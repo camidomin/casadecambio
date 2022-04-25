@@ -1,0 +1,64 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Forum', cursive;
+font-family: 'Gotu', sans-serif;
+font-family: 'Holtwood One SC', serif;
+font-family: 'Oranienbaum', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Prata', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Rufina', serif;
+font-family: 'Vidaloka', serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
+
+*/
+
+
+
+*{
+    background-color: #0B0A23 ;
+    color: #E6E5D5 ;
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Vidaloka', serif;
+}
+
+.formulario{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
+}
+
+#uno{
+    width: 50px;
+    height: 18px;
+}
+
+#dos{
+    width: 50px;
+    height: 18px;
+}
+
+#valor{
+    font-size: 20px;
+    font-family: 'Vidaloka', serif;
+}
+
+#cotizador{
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: blue;
+    
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bebas+Neue&family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Darker+Grotesque:wght@300&family=Forum&family=Gotu&family=Holtwood+One+SC&family=Oranienbaum&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400&family=Prata&family=Roboto:wght@100&family=Rock+Salt&family=Rufina:wght@400;700&family=Vidaloka&family=Work+Sans:wght@100&family=Yeseva+One&display=swap" rel="stylesheet">
+    <title>Desafio2</title>
+    <script type="text/javascript">
+        function convertir(){
+            var valore = parseInt(document.getElementById ("valor"). value);
+            var resultado = 0;
+            var dolar = 200;
+            var euro = 230;
+            if (document.getElementById("uno"). checked){
+                resultado = valore * dolar;
+                alert("El cambio de Dolares a Pesos Arg. es: $" + resultado.toFixed(2));
+            }
+            else if (document.getElementById("dos").checked){
+                resultado = valore * euro;
+                alert ("El cambio de Euros a Pesos Arg. es: $" + resultado.toFixed(2))
+            }
+            else {
+                alert("Tienes que completar todos los requerimientos")
+            }
+        }
+    </script>
+    
+</head>
+<body>
+    <h3>CASA DE CAMBIO</h3>
+    <form class="formulario">
+        <p>Seleccionar moneda a convertir</p>
+        <input type="radio" name="cambio" id="uno">Dolar
+        <input type="radio" name="cambio" id="dos">Euro
+        <p>Ingrese monto:</p>
+        <input type="number" id="valor" min="1" max="100000">
+        <input type="button" id="cotizador" value="Cotizar" onclick="convertir()">
+    </form>
+</body>
+</html>
